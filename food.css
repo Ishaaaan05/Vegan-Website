@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 80px;
+    padding: 0px 100;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color:rgba(255, 225, 0, 0.96);
+    font-weight: bold;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 100px;
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+ul li a:hover{
+    color: rgba(255, 225, 0, 0.96);
+}
+.heeader{
+    background-image:url('pin.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    /* background-attachment: fixed; */
+    
+}
+img{
+    width: 100%;
+    transition: all 0.4s;
+}
+section{
+    padding: 70px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    margin: 30px 15px 0px 15px;
+}
+header{
+    width: 70%;
+    margin: 0 auto;
+}
+header h1{
+    margin: 0;
+    font-size: 35px;
+    color: rgba(255, 225, 0, 0.96);;
+    font-weight: 700;
+}
+header p{
+    font-size: 25px;
+    color: #ffa300;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    max-height: 580px;
+    height: 100%;
+    
+    transition: all 0.5s;
+}
+.card:hover{
+    
+    transition: all 0.5s;
+}
+.card:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.hahahaha{
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    width: 100%;
+    color:#fff;
+    padding: 10px 5px;
+    
+    transition: all 0.5s;
+}
+.hahahaha h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+.hahahaha h3 span{
+    display: block;
+    font-size: 60%;
+    margin-top: 23px;
+    font-weight: 600;
+    color: rgba(52, 73, 94, 1);
+}
+.card:hover .hahahaha{
+    bottom: 0;
+    transition: all 0.5s
+}
+
+.hahahaha .btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    z-index: 5;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    line-height: 5px;
+    transition: all 0.2s ease-in-out;
+    background-color: #ffc6ff;
+    border: none;
+    
+}
+.hahahaha .btn:hover{
+    background: #bdb2ff;
+    transition: all 0.5s;
+    text-decoration: none;
+}

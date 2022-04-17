@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}    
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 80px;
+    padding: 0px 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo a{
+    font-size: 30px;
+    color:rgba(255, 225, 0, 0.96);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.5s all ease;
+    
+}
+
+ul{
+    margin: 0px;
+    margin-right: 100px;
+}
+
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+ul li a:hover{
+    color: rgba(255, 225, 0, 0.96);
+}
+
+.header{
+    background-image:url('grilled.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    /* background-attachment: fixed; */
+    
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgba(255, 225, 0, 0.96);
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 30px;
+}
+
+.content p{
+    padding: 0px 70px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+    background: none;
+    border: 1px solid;
+    color: darkkhaki;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-right: 50px;
+    font-weight: 500;
+    
+}
+
+
+button:hover{
+    transition: 0.5s;
+    color: darkkhaki;
+    background: none;
+    transform: scale(1.2);
+}
+
+.lay{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100% ;
+}
+
+
+
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    height: 89vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    height: 100vh;
+}
+
+.container{
+    background-image: url('plant1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65%;
+    background-size: cover;
+    
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    color:rgba(255, 225, 0, 0.96);
+}
+
+.container p{
+    text-align: center;
+    padding: 0px 70px;
+    font-size: 20px;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.about{
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 6px;
+}
+
+#btn{
+    font-size: 18px;
+    margin-right: 100px;
+    color:rgba(255, 225, 0, 0.96);
+}
+
+#taste{
+    font-size: 18px;
+    color:rgba(255, 225, 0, 0.96);
+}
+
+
+.about button:hover{
+    background: none;
+    transform: scale(1.2);
+}
+.end{
+    height: 35%;
+    background-image: url('vegie.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mag{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.end h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color:rgba(255, 225, 0, 0.96);
+
+}
+.end h2{
+    font-size: 10px;
+    
+}
+
+.end p{
+    text-align: center;
+    padding: 0px 70px;
+    font-size: 17px;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.join{
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 2px;
+    
+}
+
+#now{
+    font-size: 17px;
+    color:rgba(255, 225, 0, 0.96);
+    background: none;
+}
+
+.join button:hover{
+    background: none;
+    transform: scale(1.1);
+}
+
+.fb{
+    
+    margin-right: 10px;
+  
+}
+
+.ig{
+    margin-right: 5px;
+}
+
+.phone{
+    margin-right: 10px;
+}
+
